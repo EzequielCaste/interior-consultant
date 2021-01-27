@@ -15,81 +15,63 @@
       type="image/x-icon"
       href="https://devchallenges.io/"
     />
-
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="styles.css" />
 
-    <title>Devchallenges</title>
-
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
+    <title>Interior Consultant - Devchallenges</title>
   </head>
   <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
-
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
+    <header>
+      <h2>this interior</h2>
+      <nav>
+        <a>home</a>
+        <a>collection</a>
+        <a>about</a>
+        <a>contact</a>
+      </nav>
+      <i class="fas fa-bars"></i>
+      <i class="fas fa-times"></i>
+      <div class="menu">
+        <a>home</a>
+        <a>collection</a>
+        <a>about</a>
+        <a>contact</a>
       </div>
+    </header>
+    <main>
+      <div class="showcase">
+        <h1>Modern interior</h1>
+        <p>
+          A full-Service residential & commercial interior design and staging
+          company offering professional organizing & eco-services.
+        </p>
+        <p>Read more <i class="fas fa-long-arrow-alt-right"></i></p>
+      </div>
+      <div class="img-container">
+        <img src="photo1.png" alt="" />
+        <div class="designer-info">
+          <div class="avatar">
+            <img src="photo2.png" alt="" />
+            <div class="info">
+              <div class="name">Aliza Webber</div>
+              <div class="title">Interior designer</div>
+            </div>
+          </div>
 
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
-    </div>
+          <h3>Designed in 2020 by Aliza Webber</h3>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <a href="https://portfolio.devchallenges.io/EzequielCaste"
+        >@EzequielCaste</a
+      >
+    </footer>
+    <script src="menu.js"></script>
   </body>
 </html>
