@@ -132,7 +132,7 @@ main {
   }
 }
 footer {
-  width: 100%;
+  width: 90%;
   font-family: 'Montserrat';
   position: absolute;
   font-size: 14px;
@@ -243,10 +243,11 @@ footer {
         width: 100%;
       }
       .designer-info {
-        right: 42px;
-        width: 76%;
+        right: 50px;
+        bottom: -110px;
+        width: 55%;
         h3 {
-          width: auto;
+          width: 60%;
         }
       }
     }

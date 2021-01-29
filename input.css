@@ -142,7 +142,7 @@ main .img-container .designer-info h3 {
 }
 
 footer {
-  width: 100%;
+  width: 90%;
   font-family: "Montserrat";
   position: absolute;
   font-size: 14px;
@@ -251,10 +251,11 @@ header .fa-times {
     width: 100%;
   }
   main .img-container .designer-info {
-    right: 42px;
-    width: 76%;
+    right: 50px;
+    bottom: -110px;
+    width: 55%;
   }
   main .img-container .designer-info h3 {
-    width: auto;
+    width: 60%;
   }
 }/*# sourceMappingURL=input.css.map */
