@@ -54,9 +54,9 @@ The demo for the solution to this challenge is hosted on GitHub Pages. I used SA
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb) was to build an application to complete the given user stories.
 
-- [X] User story: I can see a page following the given design
-- [X] User story: On mobile, I can see a collapsed navigation
-- [X] User story: On mobile, when I select the hamburger menu, I can see a navigation
+- [x] User story: I can see a page following the given design
+- [x] User story: On mobile, I can see a collapsed navigation
+- [x] User story: On mobile, when I select the hamburger menu, I can see a navigation
 
 ## Acknowledgements
 
@@ -67,6 +67,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [ezecaste.web.app](https://ezecaste.web.app/)
+- Website [Personal site / Blog](https://www.ezecastellanos.com.ar)
 - GitHub [@EzequielCaste](https://github.com/EzequielCaste)
 - Twitter [@Ezequiel_Caste](https://twitter.com/Ezequiel_Caste)
