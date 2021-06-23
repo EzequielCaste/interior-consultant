@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@400&family=Montserrat:wght@200;300;400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@400&family=Montserrat:wght@200;300;400;500;700&display=swap');
 * {
   padding: 0;
   box-sizing: border-box;
@@ -25,7 +25,7 @@ body {
   text-transform: capitalize;
 }
 .menu a {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   margin: 24px auto;
 }
 
@@ -45,7 +45,7 @@ header {
   height: 25vh;
 }
 header h2 {
-  font-family: "Crimson Pro";
+  font-family: 'Crimson Pro';
   font-size: 14px;
   font-weight: 200;
   width: -webkit-fit-content;
@@ -66,7 +66,7 @@ header h2 {
   margin: 0;
 }
 header nav {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-size: 18px;
   font-weight: 700;
   text-transform: capitalize;
@@ -81,12 +81,12 @@ main {
 }
 main .showcase h1 {
   font-weight: 400;
-  font-family: "Lora";
+  font-family: 'Lora';
   font-size: 48px;
 }
 main .showcase p {
   width: 65%;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-size: 24px;
   font-weight: 300;
   line-height: 29px;
@@ -123,7 +123,7 @@ main .img-container .designer-info .avatar img {
 }
 main .img-container .designer-info .info {
   margin-left: 15px;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
 }
 main .img-container .designer-info .info .name {
   font-size: 14px;
@@ -136,14 +136,14 @@ main .img-container .designer-info .info .title {
   font-weight: 500;
 }
 main .img-container .designer-info h3 {
-  font-family: "Lora";
+  font-family: 'Lora';
   font-size: 24px;
   width: 60%;
 }
 
 footer {
   width: 90%;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   position: absolute;
   font-size: 14px;
   bottom: 10px;
@@ -169,7 +169,7 @@ footer a:hover {
     display: none;
   }
   header .fa-bars,
-header .fa-times {
+  header .fa-times {
     cursor: pointer;
     font-size: 24px;
   }
@@ -239,7 +239,7 @@ header .fa-times {
     right: 135px;
   }
 }
-@media (min-width: 1024px) {
+@media all and (min-width: 1024px) {
   body {
     padding: 25px 75px;
   }
@@ -258,4 +258,4 @@ header .fa-times {
   main .img-container .designer-info h3 {
     width: 60%;
   }
-}/*# sourceMappingURL=input.css.map */
+} /*# sourceMappingURL=input.css.map */
