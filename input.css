@@ -280,6 +280,9 @@ footer a:hover {
   body {
     padding: 25px 75px;
   }
+  footer {
+    padding: 0;
+  }
 
   main {
     flex-direction: row;
@@ -288,8 +291,9 @@ footer a:hover {
     width: 100%;
   }
   main .img-container .designer-info {
-    right: 50px;
-    bottom: -110px;
+    margin-top: -10em;
+    /* right: 50px;
+    bottom: -110px; */
     width: 55%;
   }
   main .img-container .designer-info h3 {
